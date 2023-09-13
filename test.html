@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Scroll Image</title>
+  <style>
+    /* Add styles for the container */
+    .container {
+      display: flex;
+      justify-content: center; /* Center the content horizontally */
+      align-items: center; /* Center the content vertically */
+      height: 100vh; /* Make the container take the full viewport height */
+      overflow: hidden; /* Hide overflow */
+    }
+
+    /* Add styles for the scrollable image */
+    .scrollable-image {
+      width: 70%; /* Set the width to 70% of the screen width */
+      max-height: 100%; /* Set the maximum height to 100% of the container height */
+      overflow: hidden;
+      position: relative;
+    }
+
+    .scrollable-image img {
+      transition: transform 15s ease, transform-origin 0.5s ease; /* Add transitions for scrolling and scaling */
+      max-width: 100%; /* Ensure the image fits within the container width */
+    }
+
+    .scrollable-image:hover img {
+      transform: translateY(-50%) scale(1.2); /* Scale up and scroll down */
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="scrollable-image">
+    <img
+      src="images/sypron.png"
+      alt="Full Screenshot"
+      width="1843"
+      height="6460"
+      onmouseover="scrollImage(this)"
+      onmouseout="resetImage(this)"
+    >
+  </div>
+</div>
+
+<script>
+  function scrollImage(img) {
+    img.style.transitionDuration = '15s'; // Slow transition when scrolling down
+    img.style.transform = 'translateY(-' + (img.height - 300) + 'px) scale(1.2)';
+  }
+
+  function resetImage(img) {
+    img.style.transitionDuration = '1s'; // Quick transition when resetting
+    img.style.transform = 'translateY(0) scale(1)';
+  }
+</script>
+
+</body>
+</html>

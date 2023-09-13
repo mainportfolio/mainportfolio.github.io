@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- Add Bootstrap and jQuery JS scripts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+  <!-- whatsapp -->
+
+  <a href="https://wa.me/201152981174" class="whatsapp-float" target="_blank">
+    <img src="images/whatsapp.png" alt="WhatsApp Chat">
+</a>
+
+
+
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <!-- Add navigation links here -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero section -->
+  <section id="hero" style="opacity: 1;
+  background-repeat: no-repeat; background: linear-gradient(rgb(101 86 86 / 50%), rgb(178 91 91 / 50%)), url(images/lap\ screen.jpg);">
+    <div class="layer">
+
+    </div>
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <p>every website here represent a success story, start building your own!</p>
+      <a href="#portfolio" class="btn btn-primary btn-lg">View My Work</a>
+    </div>
+  </div>
+  </section>
+
+  <!-- Filter by category section -->
+  <section id="category-filter" class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="category-select">Filter by Category:</label>
+          </div>
+          <select class="custom-select" id="category-select">
+            <option value="all">All</option>
+            <option value="fitness">  Fitness (0)</option>
+            <option value="fashion">  Fashion & clothes (0) </option>
+            <option value="smartmobility"> Smart Mobility (0)</option>
+            <option value="quran"> quran institute (0) </option>
+            <option value="crypto"> crypto (0)</option>
+            <option value="spa">  Spa (0)</option>
+            <option value="legal">legal services (0)</option>
+            <option value="news">  News (0)</option>
+            <option value="packing">  packing (0)</option>
+            <option value="digitalmarketing"> Digital Marketing (0)</option>
+            <option value="medical"> Medical (0)</option>
+
+          </select>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+<br> 
+<section id="portfolio" class="container">
+
+<div class="container" style="margin: auto; text-align: center;">
+
+<div class="row">
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="fitness" id="main-col"> 
+  <a href="project-details.html">
+    <img src="images/re-main.PNG" alt="Re Fitness" id="project-mainimg">
+  </a>
+  <h3>Re Fitness</h3>
+  <p>website for Dr.Ramy emad mohamed / online coach Specialized in providing high-quality nutritional and training systems</p>
+  <a href="refitness.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="smartmobility" id="main-col"> 
+
+
+  <a href="project-details.html">
+    <img src="images/sypron2.PNG" alt="Website 3" id="project-mainimg">
+  </a>
+  <h3>Sypron</h3>
+  <p>Smart Mobility services company Website with high quality visuals  </p>
+  <a href="sypron.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="quran" id="main-col"> 
+
+
+
+  <a href="project-details.html">
+    <img src="images/quran1.PNG" alt="Website 3" id="project-mainimg">
+  </a>
+  <h3>Quran Talent</h3>
+  <p>Quran Talent institute is pleased to offer online courses to teach the Holy Quran</p>
+  <a href="qurantalent.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="fashion" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/next69-1.PNG" alt="Website 3" id="project-mainimg">
+  </a>
+  <h3>Next 69</h3>
+  <p>Next 69 is online Tshirt printing store based in the USA, They create beautiful T-shirt designs and much much more.</p>
+  <a href="next69.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="crypto" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/doro4.PNG" alt="Website 3" id="project-mainimg">
+  </a>
+  <h3>Doro Crypto </h3>
+  <p>A community token changing the future of social transactions to be safer, smarter and people-centered</p>
+  <a href="doro.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="fashion" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/xvendo1.PNG" alt="xvendo" id="project-mainimg">
+  </a>
+  <h3>Xvendo</h3>
+  <p>Multi Vendor Marketplace that help people start their online E-commerce store </p>
+  <a href="xvendo.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+                                        <!--Row 3 -->
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="fashion" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/nadine1.PNG" alt="Website 3" id="project-mainimg">
+  </a>
+  <h3>Nadine Gems </h3>
+  <p>A fusion of American and Egyptian design influences in the world of jewelry </p>
+  <a href="nadinegems.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="smartmobility" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/disruptive3.PNG" alt="Disruptive Mobility" id="project-mainimg">
+  </a>
+  <h3>Disruptive Mobility </h3>
+  <p>DM TECH aims at building an integrated community that can innovate and design its own sustainable mobility systems</p>
+  <a href="dmtech.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="fashion" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/guzel2.PNG" alt="Guzel Shoes store" id="project-mainimg">
+  </a>
+  <h3>Guzel Shoes store</h3>
+  <p>an online shoes store Specialized in selling shoes of various colors and sizes</p>
+  <a href="guzel.html"  target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+
+                                        <!--Row 4 -->
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="spa" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/spa2.PNG" alt="Morocco Gate" id="project-mainimg">
+  </a>
+  <h3>Morocco Gate </h3>
+  <p>Spa and Moroccan Bath service provider </p>
+  <a href="morocco.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="legal" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/sahm1.PNG" alt="sahm" id="project-mainimg">
+  </a>
+  <h3>Sahm Elnakaa </h3>
+  <p>Providing and facilitating legal services of various types in Dubai</p>
+  <a href="sahm.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="news" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/alkhabar1.PNG" alt="Website 3" id="project-mainimg">
+  </a>
+  <br>
+  <h3> Alkhabar Alyoum</h3>
+  <p>A specialized Egyptian news website dedicated to publishing the latest news across various fields</p>
+  <a href="alkhabaralyoum.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+</div>
+
+
+
+                                        <!--Row 5 -->
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="packing" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/sofipack.PNG" alt="Sofipack" id="project-mainimg">
+  </a>
+  <h3>Sofipack </h3>
+  <p>Sofipack is a Sochema Group subsidiary, specialised in manufacturing packaging products </p>
+  <a href="sofipack.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="digitalmarketing" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/signature2.PNG" alt="Signature Marketing" id="project-mainimg">
+  </a>
+  <h3>Signature Marketing </h3>
+  <p>digital marketing company they provide ingtegrated marketing solutions like content creation, graphic design and more</p>
+  <a href="signature.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="medical" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/oral1.PNG" alt="oralxylitol" id="project-mainimg">
+  </a>
+  <br>
+  <h3> oralxylitol</h3>
+  <p>medical website that sells teeth protect products</p>
+  <a href="oralxylitol.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+</div>
+
+
+                                        <!--Row 6 -->
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="news" id="main-col"> 
+
+  <a href="project-details.html">
+    <img src="images/hub1.PNG" alt="Sofipack" id="project-mainimg">
+  </a>
+  <h3>Hub of Innovators </h3>
+  <p>unlock the full potential of digital marketing and achieve remarkable growth with many insightful resources </p>
+  <a href="hub.html" target="_blank" class="btn btn-primary btn-details">Check Now</a>
+
+</div>
+
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="digitalmarketing" id="main-col"> 
+
+
+</div>
+
+
+<div class="col-lg-4 col-md-6 col-sm-6" style="margin-bottom: 40px;" data-category="medical" id="main-col"> 
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+  <!-- Contact section -->
+  <section id="contact" class="bg-light text-center py-5">
+    <!-- ... Contact section content as before ... -->
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Ahmed Fathy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Add Bootstrap and jQuery JS scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Script for the filter functionality -->
+  <script>
+    $(document).ready(function() {
+      $('#category-select').on('change', function() {
+        const selectedCategory = $(this).val();
+        if (selectedCategory === 'all') {
+          $('.col-lg-4.col-md-6.col-sm-6').fadeIn();
+        } else {
+          $('.col-lg-4.col-md-6.col-sm-6').fadeOut();
+          $(`.col-lg-4.col-md-6.col-sm-6[data-category="${selectedCategory}"]`).fadeIn();
+        }
+      });
+    });
+  </script>
+
+
+
+
+<style>
+
+body {
+    padding-top: 50px;
+    font-family: Arial, sans-serif; 
+    
+  }
+  /* Portfolio item card */
+  .portfolio-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  .portfolio-item img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+  }
+  .portfolio-item h3 {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .portfolio-item p {
+    color: #666;
+  }
+  .portfolio-item:hover {
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  }
+
+.portfolio-item .btn-details{margin:auto!important; text-align: center; display: table;}
+
+
+.portfolio-item{text-align: center; max-width: 28%;
+  margin: auto;}
+
+
+
+  /* Hero section */
+  #hero {
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #201f25;
+    margin-bottom: 60px;
+  }
+  #hero h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  #hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  #hero .btn {
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  footer p {
+    margin: 0;
+  }
+
+#main-col h3{margin-top: 20px;}
+
+#project-mainimg {transition: transform 0.3s ease-in-out;}
+
+#project-mainimg:hover{transform: scale(1.1);}
+
+
+.project-title{    border-left: 27px solid silver!important;
+  padding: 16px!important;
+  border-radius: 20%!important;
+  border-right: 27px solid silver!important}
+
+
+  #main-col img, #project-mainimg{max-width: 100%!important; max-height: 250px!important;
+    height: 250px!important;}
+
+
+
+    label.input-group-text{    background-color: #007bff;
+    color: white;}
+
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 74px; /* Adjust the size as needed */
+    height: 74px;
+    border-radius: 50%;
+}
+
+
+#main-col p{
+display: -webkit-box!important;
+  -webkit-line-clamp: 2!important; /* Number of lines to show */
+  -webkit-box-orient: vertical!important;
+  overflow: hidden!important;
+  text-overflow: ellipsis!important;}
+
+
+
+</style>
+<!-- Script for the filter functionality and category counts -->
+
+<!-- Script for the filter functionality -->
+<script>
+  $(document).ready(function() {
+    // Initialize the selected category variable
+    var selectedCategory = 'all';
+
+    // Function to update category counts
+    function updateCategoryCounts() {
+      var categoryCounts = {};
+
+      $('.col-lg-4.col-md-6.col-sm-6:visible').each(function() {
+        var category = $(this).data('category');
+        if (categoryCounts[category] === undefined) {
+          categoryCounts[category] = 0;
+        }
+        categoryCounts[category]++;
+      });
+
+      Object.keys(categoryCounts).forEach(function(category) {
+        $(`#category-select option[value="${category}"]`).text(`${category} (${categoryCounts[category]})`);
+      });
+    }
+
+    // Initialize category counts on page load
+    updateCategoryCounts();
+
+    $('#category-select').on('change', function() {
+      selectedCategory = $(this).val();
+      if (selectedCategory === 'all') {
+        $('.col-lg-4.col-md-6.col-sm-6').fadeIn();
+      } else {
+        $('.col-lg-4.col-md-6.col-sm-6').hide();
+        $(`.col-lg-4.col-md-6.col-sm-6[data-category="${selectedCategory}"]`).fadeIn();
+      }
+      updateCategoryCounts();
+    });
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('#hero a.btn').on('click', function(e) {
+      e.preventDefault();
+
+      var target = $($(this).attr('href'));
+      var targetTop = target.offset().top;
+
+      $('html, body').animate(
+        {
+          scrollTop: targetTop,
+        },
+        1000 // Adjust the duration (in milliseconds) to control the speed
+      );
+    });
+  });
+</script>
+
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Grid row-->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-12">
+        <div class="flex-center">
+          <!-- Whatsapp -->
+
+          <a href="https://wa.me/201152981174" target="_blank" class="li-ic">
+            <i class="fa fa-whatsapp fa-lg white-text mr-md-5 mr-3 fa-2x" id="footer-icon"> </i>
+          </a>
+
+          <!--Linkedin -->
+          <a href="https://www.linkedin.com/in/ahmed-fathy-6389871a4/" target="_blank" class="li-ic">
+            <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x" id="footer-icon"> </i>
+          </a>
+          <!--Instagram-->
+          <a href="https://www.instagram.com/ahmed.eldiary/" target="_blank" class="ins-ic">
+            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x" id="footer-icon"> </i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+<style>
+#footer-icon{text-decoration: none!important; cursor: pointer;}
+#footer-icon:hover{color:white;}
+
+</style>
+
+
+</footer>
+  </body>
+</html>
+

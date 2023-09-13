@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Details</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    /* Specific styles for this page */
+    #project-details {
+      padding: 50px;
+    }
+    .project-title {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      
+    }
+    .project-description {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    .project-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+    .project-images img {
+      max-width: 65%;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+      border: 2px solid lightgrey!important;
+    padding: 20px!important;
+    }
+    .project-images img:hover {
+      transform: scale(1.05);
+    }
+    .cta-buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .cta-button {
+      font-size: 18px;
+      padding: 12px 30px;
+      border-radius: 30px;
+      margin: 0 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+
+    #project-details-main-h3{
+padding: 16px!important;
+max-width: 24%!important;
+margin-bottom: 50px!important; font-weight: 600;}
+
+    /* Your custom animations using Animate.css */
+    .fadeInLeft {
+      animation: fadeInLeft 1s ease forwards;
+    }
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .project-title{text-align: center!important;
+    margin: auto!important; display: table!important;      border-left: 27px solid #007bff!important;
+    padding: 16px!important;
+    border-radius: 20%!important;
+    border-right: 27px solid #007bff!important; margin-top: 24px!important;}
+
+    .project-description{text-align: center!important;
+    margin: auto!important; display: table!important;     margin-top: 22px!important;
+    margin-bottom: 40px!important;}
+
+    #exploremore-buttons a{text-decoration: none!important; color:white!important}
+
+    #project-details{
+    padding-top: 0px!important;
+    margin-top: 0px!important;}
+
+  </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <!-- Add navigation links here -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+
+
+    <style>
+      /* Add styles for the container */
+      .container-scroll {
+        display: flex;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        height: 100vh; /* Make the container take the full viewport height */
+        overflow: hidden; /* Hide overflow */
+      }
+  
+      /* Add styles for the scrollable image */
+      .scrollable-image {
+        width: 100%; /* Set the width to 70% of the screen width */
+        max-height: 100%; /* Set the maximum height to 100% of the container height */
+        overflow: hidden;
+        position: relative;
+      }
+  
+      .scrollable-image img {
+        transition: transform 15s ease, transform-origin 0.5s ease; /* Add transitions for scrolling and scaling */
+        max-width: 100%; /* Ensure the image fits within the container width */
+      }
+  
+      .scrollable-image:hover img {
+        transform: translateY(-50%) scale(1.2); /* Scale up and scroll down */
+      }
+      #project-details-main-h3{    margin-top: -40px!important}
+    
+      #alertforscreen{margin-top: 170px!important;}
+
+
+    </style>
+
+
+
+<section id="project-details" class="container mt-5">
+  <h1 class="project-title animate__animated animate__fadeInLeft" sytle="text-align:center; 
+  justify-content:center; display:table">Quran Talent</h1>
+  <p class="project-description animate__animated animate__fadeInLeft" sytle="text-align:center; justify-content:center; display:table">
+    Quran Talent institute is pleased to offer online courses to teach the Holy Quran
+  </p>
+  </section>
+
+  
+
+  <div class="container">
+    <div class="row">
+
+<div class="col-lg-3 col-md-3 col-sm-3">
+
+  <div class="alert alert-primary" role="alert" id="alertforscreen">
+
+    * please keep the curosr &nbsp; <i class="fa fa-mouse-pointer"></i>    on the image on the right <i class='fa fa-angle-double-right' style='font-size:30px;     font-size: 30px;
+    margin-left: 9px;
+    position: absolute;
+    top: 28px;'></i>
+    <br> <br>
+    So the image will scroll down to show you the full screen of the home page! 
+  </div>
+  </div>
+
+<div class="col-lg-9 col-md-9 col-sm-9">
+
+<div class="container-scroll">
+  <div class="scrollable-image">
+    <img
+      src="images/quran-screen.png"
+      alt="Full Screenshot"
+      width="1843"
+      height="6460"
+      onmouseover="scrollImage(this)"
+      onmouseout="resetImage(this)"
+    >
+  </div>
+</div>
+</div>
+<script>
+  function scrollImage(img) {
+    img.style.transitionDuration = '30s'; // Slow transition when scrolling down
+    img.style.transform = 'translateY(-' + (img.height - 300) + 'px) scale(1.2)';
+  }
+
+  function resetImage(img) {
+    img.style.transitionDuration = '1s'; // Quick transition when resetting
+    img.style.transform = 'translateY(0) scale(1)';
+  }
+</script>
+
+</div>
+
+
+
+<br> 
+<br>
+<br>
+<br>
+
+  <!-- Project details section -->
+<section id="project-details" class="container mt-5">
+  <h3 id="project-details-main-h3">   <span class="glyphicon glyphicon-screenshot"></span>
+    Screenshots </h3>
+    <div class="project-images animate__animated animate__fadeInLeft">
+      <img src="images/quran1.PNG" alt="Quran Talent">
+      <br>
+      <img src="images/quran2.PNG" alt="Quran Talent">
+      <br>
+      <img src="images/quran3.PNG" alt="Quran Talent">
+      <br>
+      <img src="images/quran4.PNG" alt="Quran Talent">
+      <br>
+      <img src="images/quran5.PNG" alt="Quran Talent">
+
+
+
+      <!-- Add more images here -->
+    </div>
+
+    <div class="cta-buttons animate__animated animate__fadeInLeft" id="exploremore-buttons">
+      <button class="cta-button"> <a href="https://qurantalent.net/" target="_blank"> Explore More </a></button>
+        <br> <br>
+      <br>
+
+        <!-- disabled button 
+
+      <button class="cta-button"> <a href="#" target="_blank"> Explore More </a></button>
+        <br> <br>
+                -->
+                
+      <br>
+      <h3> You Are Next! Start your project with me Now.</h3>
+      <br>
+      <button class="cta-button">Book Now</button>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- Add Bootstrap and jQuery JS scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
